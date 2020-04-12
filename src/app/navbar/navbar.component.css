@@ -1,3 +1,11 @@
 .spacer {
     flex: 1 1 auto;
 }
+
+.active {
+    background: rgba(25, 32, 71, 0.3);
+}
+
+.menuButton {
+    margin: 5px;
+}

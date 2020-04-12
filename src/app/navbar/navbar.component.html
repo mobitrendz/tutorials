@@ -5,9 +5,9 @@
 
     <div class="spacer"></div>
 
-    <a routerLink="content" mat-button>Typescript</a>
-    <a mat-button>Angular</a>
-    <a mat-button>React</a>
-    <a mat-raised-button color="accent">Sign Up</a>
+    <a mat-button class="menuButton" [routerLink]="['content', 'typescript']" [routerLinkActive]="['active']">Typescript</a>
+    <a mat-button class="menuButton" [routerLink]="['content', 'angular']" [routerLinkActive]="['active']">Angular</a>
+    <a mat-button class="menuButton" [routerLink]="['content', 'react']" [routerLinkActive]="['active']">React</a>
+    <a mat-raised-button class="menuButton" routerLink="signup" color="accent">Sign Up</a>
     
 </mat-toolbar>
